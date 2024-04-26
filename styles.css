@@ -10,7 +10,7 @@ body {
     background-color: #eed9d9;
 }
 
-container {
+#container {
     max-width: 900px;
     width: 100%;
     padding: 20px;
