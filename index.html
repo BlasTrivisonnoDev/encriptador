@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Encriptador/Desencriptador de Texto</h1>
+            <img src="logo.png" alt="Logo" id="logo">
+        </div>
+        
+        <div id="explanation">
+            <p>Este es un encriptador/desencriptador de texto simple que utiliza el cifrado César. 
+               Ingrese el texto en el área de texto, haga clic en 'Encriptar' o 'Desencriptar' 
+               según lo que desee hacer y el resultado se mostrará en el área de abajo.</p>
+        </div>
 
+        <div id="inputArea">
+            <textarea id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+        </div>
+        
+        <textarea id="outputText" readonly></textarea>
+        
+        <footer>
+            <p>Desarrollado por [Tu Nombre]</p>
+            <p>Contacto: [Tu Correo Electrónico]</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
